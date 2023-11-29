@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        
+    </head>
+    <body>
+  <h1>My Data </h1>
+        <ul>
+            {% for s in students %}
+               <li>{{s[0]}} {{s[1]}} {{s[2]|upper}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
+
